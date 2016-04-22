@@ -1,6 +1,2 @@
 language: java 
-branch:
-  only: test
-before_script: 
-  -psql -c "CREATE USER skateparks WITH PASSWORD 'skateparks';"-U postgres
 jdk: oraclejdk8 oraclejdk7 openjdk6
